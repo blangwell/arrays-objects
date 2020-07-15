@@ -42,3 +42,14 @@ for (var i = 0; i < teams.length; i++){
     var eachTeam = teams[i]; // clippers, lakers, beers, rockets, nets
     console.log(eachTeam); 
 }
+
+// make an array
+// use a for loop to iterate through the array
+// print each element in your array
+
+var dopeFilms = ['hara kiri: death of a samurai', 'twilight samurai', 'palindromes', 'synecdoche, new york'];
+
+for (var i = 0; i < dopeFilms.length; i++){
+    var eachFilm = dopeFilms[i]; // intermediate variable
+    console.log(eachFilm);
+}
