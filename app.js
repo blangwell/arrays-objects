@@ -61,3 +61,47 @@ for (let i = 0; i < cars.length; i++) {
     let eachCar = cars[i];
     console.log(eachCar);
 }
+
+//objects!
+// key: value pairs
+
+const barent = {
+    fullName: 'Barent Christien Langwell',
+    age: 30,
+    myLocation: 'Inland Empire',
+    placesTraveled: ['Hawaii', 'Mexico', 'Arizona', 'Nevada']
+};
+
+console.log(barent);
+
+//myLocation
+console.log(barent.myLocation);
+//print arizona
+console.log(barent.placesTraveled[2]);
+
+const myReallyCoolPost = {
+    username: '@generalassembly',
+    likes: 1200,
+    comments: ['really cool post!', 'nice!', 'javascript is cool', 'whoa'],
+    caption: 'Day 3 of SEI!',
+    picture: 'https://instagram.com/generalassembly/...',
+    shares: 12
+}
+console.log(myReallyCoolPost);
+
+myReallyCoolPost.myLocation = 'San Francisco';
+console.log(myReallyCoolPost);
+
+// likes, captions, shares, comments, username, picture
+
+//instagram post object
+
+const newInstagramPost = {
+    username: '@nastyplanter',
+    likes: 42069,
+    comments: ['yo, what the hell?', 'are you serious?', 'hey leave him alone!'],
+    caption: 'Actual pic of my endoscopy!',
+    picture: 'https://instagram.com/nastyplanter/...',
+    shares: 0
+}
+console.log(newInstagramPost);
