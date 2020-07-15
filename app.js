@@ -25,3 +25,9 @@ while(myOtherNumber < numberTwo){
     myOtherNumber += 1 // 11, 12, 13
 }
 
+var barentFavorite = 23;
+var letGoToOneHundred = 100;
+while(barentFavorite < letGoToOneHundred){
+    console.log(barentFavorite); // 23, 24, 25
+    barentFavorite += 1; // 24, 25, 26
+}
