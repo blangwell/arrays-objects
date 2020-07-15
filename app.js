@@ -53,3 +53,11 @@ for (var i = 0; i < dopeFilms.length; i++){
     var eachFilm = dopeFilms[i]; // intermediate variable
     console.log(eachFilm);
 }
+
+const cars = ['ancap tesla', 'fascist ford', 'objectivist audi'];
+console.log(cars);
+
+for (let i = 0; i < cars.length; i++) {
+    let eachCar = cars[i];
+    console.log(eachCar);
+}
