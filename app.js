@@ -27,7 +27,18 @@ while(myOtherNumber < numberTwo){
 
 var barentFavorite = 23;
 var letGoToOneHundred = 100;
-while(barentFavorite < letGoToOneHundred){
+while (barentFavorite < letGoToOneHundred){
     console.log(barentFavorite); // 23, 24, 25
     barentFavorite += 1; // 24, 25, 26
+}
+
+//for loops
+for (var i = 0; i < 10; i++){
+    console.log(i); // 0, 1, 2....
+}
+
+//print teams
+for (var i = 0; i < teams.length; i++){
+    var eachTeam = teams[i]; // clippers, lakers, beers, rockets, nets
+    console.log(eachTeam); 
 }
